@@ -515,4 +515,8 @@ form a{
     .cart-info p{
         display: none;
     }
+    .col-5 img{
+        width: 60%;
+        filter: none; /*Bỏ lọc màu logo*/
+    }
 }
