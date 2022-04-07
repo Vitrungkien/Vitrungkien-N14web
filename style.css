@@ -231,11 +231,14 @@ footer h3{
 ul{
     list-style-type: none;
 }
-.app-logo{
-    margin-top: 20px;
+
+.play-store-logo{
+    width: 190px;
+    margin-left: 0px;
 }
-.app-logo img{
-    width: 140px;
+.app-store-logo{
+    width: 150px;
+    margin-left: 15px;
 }
 .footer hr{
     border: none;
