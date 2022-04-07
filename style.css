@@ -1,10 +1,11 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .navbar{
     display: flex;
@@ -331,6 +332,10 @@ input:focus{
     cursor: pointer;
 }
 /* ----------cart items---------- */
+.title-cart{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .cart-page{
     margin: 80px auto;
 }
