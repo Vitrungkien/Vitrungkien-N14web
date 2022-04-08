@@ -520,3 +520,57 @@ form a{
         filter: none; /*Bỏ lọc màu logo*/
     }
 }
+
+/*------------------------About---------------*/
+.about{
+}
+.about h1{
+    color: rgb(247, 47, 47);
+    text-shadow: 1px 2px 1px rgb(0, 0, 0);
+    text-align: center;
+    padding: 2%;
+}
+.about p{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 0%;
+    padding-bottom: 3%;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 1px rgb(0, 0, 0);
+    font-size: 20pt;
+    font-family: "Beau Rivage";
+    line-height: 35pt;
+}
+.ve-chung-toi{
+    margin: 2%;
+    background-image: url(../images/ve-chung-toi.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-attachment: local;
+    border-radius: 10px;
+}
+.tam-nhin{
+    margin: 2%;
+    background-image: url(../images/tam-nhin.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    border-radius: 10px;
+}
+.su-menh{
+    margin: 2%;
+    background-image: url(../images/su-menh.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    border-radius: 10px;
+}
+.gia-tri-cot-loi{
+    margin: 2%;
+    background-image: url(../images/gia-tri-cot-loi.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    border-radius: 10px;
+}
+/*------------------------End-About---------------*/
