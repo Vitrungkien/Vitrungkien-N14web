@@ -543,28 +543,28 @@ form a{
 }
 .ve-chung-toi{
     margin: 2%;
-    background-image: url("../images/ve-chung-toi.jpg");
+    background-image: url("images/ve-chung-toi.jpg");
     background-position: center;
     background-size: cover; 
     border-radius: 10px;
 }
 .tam-nhin{
     margin: 2%;
-    background-image: url("../images/tam-nhin.jpg");
+    background-image: url("images/tam-nhin.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 .su-menh{
     margin: 2%;
-    background-image: url("../images/su-menh.jpg");
+    background-image: url("images/su-menh.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 .gia-tri-cot-loi{
     margin: 2%;
-    background-image: url("../images/gia-tri-cot-loi.jpg");
+    background-image: url("images/gia-tri-cot-loi.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 10px;
