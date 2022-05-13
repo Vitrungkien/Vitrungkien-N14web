@@ -32,19 +32,30 @@
 <!-- ----------End menu--------- -->
 
 <!-- --------All Products------- -->
+<header>
     <div class="small-container">
         <div class="row row-2">
-            <h2>Tất cả sản phẩm</h2>
+            <div class="search-box">
+                <form action="" onsubmit="return false">
+                    <input type="text" id="search" placeholder="Search Product">
+                    <!-- <button id="btn-search">Search</button> -->
+                </form>
+            </div>
+            <div class="filter-box">
+                <a href="#" class="btn active" data-filter="all">All</a>
+                <a href="#" class="btn" data-filter="Acer">Acer</a>
+                <a href="#" class="btn" data-filter="Lenovo">Lenovo</a>
+                <a href="#" class="btn" data-filter="MSI">MSI</a>
+            </div>
             <select>
                 <option>Giá giảm dần</option>
                 <option>Giá tăng dần</option>
-                <option>Phổ biến nhất</option>
-                <option>Đánh giá</option>
-                <option>Bán chạy</option>
             </select>
         </div>
-        <h2>Acer</h2>
-        <div class="row"><!-- Products 1-4 Acer-->
+    </div>
+</header>
+<section class="container" id="store-products">
+        <div class="store-product Acer" style="display: auto"><!-- Products 1-4 Acer-->
             <div class="col-4">
                 <a href="product-details.html"><img src="imgs/acer1.jpg"></a>
                 <a href="product-details.html"><h4>ACER PREDATOR HELIOS 300</h4></a>
@@ -95,7 +106,7 @@
             </div>
         
         </div>
-        <div class="row"> <!-- Products 5-8 Acer-->
+        <div class="store-product Acer" style="display: auto"> <!-- Products 5-8 Acer-->
             <div class="col-4">
                 <img src="imgs/acer5.png">
                 <h4>ACER NITRO 5 EAGLE 56S5</h4>
@@ -148,7 +159,7 @@
                 <p>16.990.000 đ</p>
             </div>
         </div>
-        <div class="row"> <!-- Products 9-12 Acer-->
+        <div class="store-product Acer" style="display: auto"> <!-- Products 9-12 Acer-->
             <div class="col-4">
                 <img src="imgs/acer9.jpg">
                 <h4>ACER ASPIRE 5 A514</h4>
@@ -201,8 +212,10 @@
                 <p>7.690.000 đ</p>
             </div>
         </div> 
-        <h2>Lenovo</h2>
-        <div class="row">   <!-- Products 13-16 Lenovo -->
+
+        
+       
+        <div class="store-product Lenovo" style="display: auto">   <!-- Products 13-16 Lenovo -->
             <div class="col-4">
                 <img src="imgs/le1.jpg">
                 <h4>LENONO LEGION 7 16ACHG6</h4>
@@ -251,9 +264,10 @@
                 </div>
                 <p>35.990.000đ</p>
             </div>
+
         </div>
-        <h2>MSI</h2>
-        <div class="row">   <!-- Products 16-19 MSI -->
+        
+        <div class="store-product MSI" style="display: auto">   <!-- Products 16-19 MSI -->
             <div class="col-4">
                 <img src="imgs/msi1.jpg">
                 <h4>MSI BRAVO 15 B5DD 264VN</h4>
@@ -302,7 +316,10 @@
                 </div>
                 <p>13.290.000đ</p>
             </div>
+
+            
         </div>
+    </section>
         <div class="page-btn">
             <span>1</span>
             <span>2</span>
@@ -310,7 +327,7 @@
             <span>4</span>
             <span>&#8594;</span>
         </div>
-    </div>
+    
 <!-- ------End All products----- -->
 
 <!-- -----------Footer---------- -->
@@ -372,6 +389,9 @@
             }
         </script>
 <!-- ----End js for toggle menu- -->
+
+<!--------Filter js------->
+<script src="script.js"></script>
 
 </body>
 </html>

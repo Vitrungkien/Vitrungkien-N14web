@@ -522,8 +522,7 @@ form a{
 }
 
 /*------------------------About---------------*/
-.about{
-}
+
 .about h1{
     color: rgb(247, 47, 47);
     text-shadow: 1px 2px 1px rgb(0, 0, 0);
@@ -570,3 +569,30 @@ form a{
     border-radius: 10px;
 }
 /*------------------------End-About---------------*/
+
+
+/*------------chinh sua phan product-------------*/
+form input {
+    width: 20rem;
+    padding: .7rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    border-bottom: 2px solid var(--color-sec);
+    margin-bottom: 1rem;
+}
+.store-product {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#store-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 2rem 0;
+}
+
