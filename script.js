@@ -12,10 +12,11 @@ for (i = 0; i < btns.length; i++) {
         
         storeProducts.forEach((product)=> {
             if (filter === 'all'){
-                product.style.display = 'block'
+                product.style.display = ''
             } else {
                 if (product.classList.contains(filter)){
-                    product.style.display = 'block'
+                    // product.style.display = 'block'
+                    product.style.display = ''
                 } else {
                     product.style.display = 'none'
                 }
@@ -26,7 +27,7 @@ for (i = 0; i < btns.length; i++) {
 
 // SEARCH FILTER
 const search = document.getElementById("search");
-const productName = document.querySelectorAll(".product-details h2");
+const productName = document.querySelectorAll(".col-4 h2");
 
 // A BETTER WAY TO FILTER THROUGH THE PRODUCTS
 search.addEventListener("keyup", filterProducts);
@@ -38,7 +39,7 @@ function filterProducts(e) {
     productName.forEach(function(product) {
         const item = product.firstChild.textContent;
         if (item.toLowerCase().indexOf(text) != -1) {
-            product.parentElement.parentElement.style.display = "block"
+            product.parentElement.parentElement.style.display = ""
         } else {
             product.parentElement.parentElement.style.display = "none"
         }

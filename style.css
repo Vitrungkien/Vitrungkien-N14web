@@ -571,7 +571,7 @@ form a{
 /*------------------------End-About---------------*/
 
 
-/*------------chinh sua phan product-------------*/
+/*------------chỉnh sửa phần product-------------*/
 form input {
     width: 20rem;
     padding: .7rem;
@@ -595,4 +595,13 @@ form input {
     row-gap: 2rem;
     padding: 2rem 0;
 }
+.col-4 h2{
+    display: none;
+}
+.containerr {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 
